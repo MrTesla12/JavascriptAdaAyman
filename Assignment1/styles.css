@@ -1,0 +1,94 @@
+/* ---------- Page Layout ---------- */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* ---------- Header ---------- */
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 5px;
+}
+
+/* ---------- Part Buttons ---------- */
+
+.parts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.part {
+    padding: 12px;
+    border: 1px solid #888;
+    background-color: #eef3f7;
+    cursor: pointer;
+    text-align: left;
+}
+
+.part:hover {
+    background-color: #dfeaf2;
+}
+
+.label {
+    font-weight: bold;
+    display: block;
+}
+
+.value {
+    color: #333;
+}
+
+/* ---------- Action Buttons ---------- */
+
+.actions {
+    margin-top: 20px;
+}
+
+.actions button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 1px solid #555;
+    background-color: #e3e7eb;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #cfd8df;
+}
+
+.primary {
+    background-color: #4c8bf5;
+    color: white;
+    border-color: #3a6fd8;
+}
+
+/* ---------- Story Output ---------- */
+
+.output {
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    background-color: #fafafa;
+}
+
+.story {
+    font-size: 18px;
+    min-height: 40px;
+}
